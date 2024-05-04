@@ -1,0 +1,16 @@
+{
+     "parts":[
+         {
+             "is_public": false,
+             "regex_def": "$(=\r\n)?=(=\r\n)?C(=\r\n)?2(=\r\n)?=(=\r\n)?A(=\r\n)?0(=\r\n)?"
+         },
+         {
+             "is_public": true,
+             "regex_def": "[0-9,]([0-9,]*=\r\n)*[0-9,]*.([0-9]*=\r\n)*[0-9]+"
+         },
+         {
+             "is_public": false,
+             "regex_def": "(=\r\n)?=(=\r\n)?C(=\r\n)?2(=\r\n)?=(=\r\n)?A(=\r\n)?0"
+         }
+     ]
+}

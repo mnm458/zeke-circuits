@@ -1,0 +1,23 @@
+{
+  "name": "advertising",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@zk-email/circuits": "^3.2.4",
+    "@zk-email/zk-regex-circom": "^2.0.2",
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.3"
+  }
+}

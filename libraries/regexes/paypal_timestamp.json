@@ -1,0 +1,16 @@
+{
+    "parts":[
+         {
+             "is_public": false,
+             "regex_def": "i=@[a-z._-]*paypal[a-z._-]*; t="
+         },
+         {
+            "is_public": true,
+            "regex_def": "[0-9]+"
+         },
+         {
+            "is_public": false,
+            "regex_def": ";"
+        }
+    ]
+}

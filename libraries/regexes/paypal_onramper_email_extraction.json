@@ -1,0 +1,16 @@
+{
+    "parts": [
+        {
+            "is_public": false,
+            "regex_def": "<(s|p|a|n|=|\r|\n)+>"
+        },
+        {
+            "is_public": true,
+            "regex_def": "[A-Za-z0-9_.=\r\n-]+@[A-Za-z0-9._=\r\n-]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": "<"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "examples": ["to: Mohak Malhotra <mohaknainmalhotra@gmail.com>"],
+    "parts": [
+        {
+            "is_public": false,
+            "regex_def": "<"
+        },
+        {
+            "is_public": true,
+            "regex_def": "[A-Za-z0-9!#$%&'*+=?^_`{}~.-]+@[A-Za-z0-9.-]+"
+        },
+        {
+            "is_public": false,
+            "regex_def": ">"
+        }
+    ]
+}

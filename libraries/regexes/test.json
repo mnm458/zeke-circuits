@@ -1,0 +1,12 @@
+{
+    "parts": [
+        {
+            "is_public": false,
+            "regex_def": "PP-Correlation-Id: "
+        },
+        {
+            "is_public": true,
+            "regex_def": "[a-zA-Z0-9]+"
+        }
+    ]
+}

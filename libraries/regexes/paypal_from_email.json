@@ -1,0 +1,17 @@
+{
+    "examples": ["from:\"service@paypal.com.au\" <service@paypal.com.au>"],
+    "parts": [
+        {
+            "is_public": false,
+            "regex_def": " <"
+        },
+        {
+            "is_public": true,
+            "regex_def": "service@[a-z-.]*paypal[a-z-.]*"
+        },
+        {
+            "is_public": false,
+            "regex_def": ">"
+        }
+    ]
+}
